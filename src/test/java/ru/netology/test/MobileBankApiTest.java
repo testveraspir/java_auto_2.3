@@ -20,7 +20,7 @@ public class MobileBankApiTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Фамилия Имя"));
+                .body("data", equalTo("Фамилия Имя Отчество"));
 
     }
 
